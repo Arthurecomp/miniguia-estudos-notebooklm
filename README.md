@@ -60,24 +60,6 @@ A Evolução Diferencial é amplamente utilizada em problemas de otimização co
 
 ---
 
-####  Fórmulas principais
-
-**Mutação:**
-
-\[
-v_{i,G+1} = x_{r1,G} + F \cdot (x_{r2,G} - x_{r3,G})
-\]
-
-**Crossover (binomial):**
-
-\[
-u_{j,i,G+1} =
-\begin{cases}
-v_{j,i,G+1}, & \text{se } rand(0,1) \leq Cr \text{ ou } j = rnbr(i) \\
-x_{j,i,G}, & \text{caso contrário}
-\end{cases}
-\]
-
 ---
 
 #### Comparação com Algoritmos Genéticos
